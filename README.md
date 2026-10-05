@@ -16,4 +16,4 @@ source 'https://cdn.cocoapods.org/'
    and `lib/MobileRTCResources.bundle`.
 3. Create a GitHub release `v<version>` and attach that zip as
    `zoom-sdk-ios-<version>-lib.zip`.
-4. Update `s.version` and the `s.source` URL in `ZoomSDK.podspec`, commit and push.
+4. Add `ZoomSDK/<version>/ZoomSDK.podspec` (copy the previous one, update `s.version` and the `s.source` URL), commit and push.
